@@ -1,0 +1,162 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 26px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 28px;
+  }
+.header, .intro {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.headerlinks {
+    justify-content: flex-end;
+    margin-left: auto;
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+}
+
+.introleft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.introright {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+#musashi {
+    height: 300px;
+    width: auto;
+    padding-left: 150px;
+}
+
+button {
+    margin-right: auto;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+
+
+
+.imagetitle {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 60px;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.imagetext {
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.actualquote{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.whoquoted{
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    color: white;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 25px;
+}
+
+.ctaright {
+    display: flex;
+    align-items: center;
+}
+
+.ctabold {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+
+.headerlogo {
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: flex-start;
+}
+
+.heromain {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.herosec {
+    font-size: 18px;
+    color: #e5e7eb;
+}
